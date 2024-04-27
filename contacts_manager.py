@@ -54,4 +54,4 @@ def display_contacts(contact):
         print("You have to have contacts first!")
     else:
         for num, c_info in contact.items():
-            print(f"Contact Number: {num}\nName: {c_info["Name"]}------ Phone Number: {c_info["Phone Number"]}\nDate: {c_info["Date"]} ------Email Address: {c_info["Email Address"]}")
+            print(f"Contact Number: {num}\nName: {c_info['Name']}------ Phone Number: {c_info['Phone Number']}\nDate: {c_info['Date']} ------Email Address: {c_info['Email Address']}")
